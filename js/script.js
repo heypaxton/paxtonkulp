@@ -483,8 +483,14 @@
 	// 06.2 Countdown
 	//================================================================================
 	var theday = new Date();
-	theday = new Date(2021, 2, 6);
-	$('.countdown').countdown({until: theday, format: 'DHMS'});
+	theday = new Date(2021, 3-1, 6);
+	$('.countdown').countdown({until: theday, format: 'dHMS'});
+
+	// $('.countdown').simplyCountdown({
+    //     year: 2021, // required
+    //     month: 3, // required
+    //     day: 6, // required
+    // });
 	
 	
 	// 06.3 Gift Carousel
